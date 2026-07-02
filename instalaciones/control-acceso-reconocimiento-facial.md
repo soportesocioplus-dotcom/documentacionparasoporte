@@ -1,8 +1,8 @@
 ---
 description: >-
   Guía técnica para el equipo de soporte: requisitos, procedimiento de
-  instalación y resolución de problemas del control de acceso por
-  reconocimiento facial.
+  instalación y resolución de problemas del control de acceso por reconocimiento
+  facial.
 icon: face-viewfinder
 ---
 
@@ -18,16 +18,16 @@ No se debe pactar un turno de instalación sin que el cliente haya confirmado po
 
 El puesto de trabajo donde se realizará la instalación (o reinstalación) debe cumplir con los siguientes requisitos mínimos de hardware y software:
 
-| Componente | Requisito |
-|---|---|
-| Procesador | Intel i3 o AMD Ryzen 3 (mínimo) — Intel i5 o AMD Ryzen 5 (recomendado) |
-| Memoria RAM | 16 GB (mínimo) |
-| Disco rígido | 500 GB (mínimo) |
-| Sistema operativo | Windows 10/11 de 64 bits |
-| Explorador web | Firefox (recomendado) |
-| Software adicional | [AnyDesk](https://anydesk.com/es) instalado |
-| Conectividad | Conexión a internet óptima y estable |
-| Hardware | Lector de reconocimiento facial |
+| Componente         | Requisito                                                              |
+| ------------------ | ---------------------------------------------------------------------- |
+| Procesador         | Intel i3 o AMD Ryzen 3 (mínimo) — Intel i5 o AMD Ryzen 5 (recomendado) |
+| Memoria RAM        | 16 GB (mínimo)                                                         |
+| Disco rígido       | 500 GB (mínimo)                                                        |
+| Sistema operativo  | Windows 10/11 de 64 bits                                               |
+| Explorador web     | Firefox (recomendado)                                                  |
+| Software adicional | [AnyDesk](https://anydesk.com/es) instalado                            |
+| Conectividad       | Conexión a internet óptima y estable                                   |
+| Hardware           | Lector de reconocimiento facial                                        |
 
 Además, se debe verificar en la sede:
 
@@ -77,7 +77,7 @@ Localizá el concepto que vas a vincular y entrá a `Editar concepto` › `Deseo
 
 Seleccioná el o los nodos por los cuales podrá ingresar el socio, y hacé clic en **Guardar** para aplicar los cambios.
 
-![Pantalla de vinculación de nodos, con un nodo seleccionado y el botón Guardar señalado](images/vincular-nodos-guardar.png)
+![Pantalla de vinculación de nodos, con un nodo seleccionado y el botón Guardar señalado](../.gitbook/assets/vincular-nodos-guardar.png)
 {% endstep %}
 {% endstepper %}
 
@@ -119,12 +119,12 @@ Si el cliente quiere actualizar a un dispositivo con más capacidad de caras, se
 
 ## Dispositivos compatibles
 
-| Marca | Modelo | Capacidad | Lector de tarjetas | Conectividad | Velocidad | Distancia de reconocimiento |
-|---|---|---|---|---|---|---|
-| HikVision | [DS-K1T673DWX](https://www.hikvision.com/en/products/Access-Control-Products/Face-Recognition-Terminals/Pro-Series/ds-k1t673dwx/) | 10.000 caras / 50.000 tarjetas | Sí | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 3 metros |
-| HikVision | [DS-K1T642MW](https://www.hikvision.com/es-la/products/Access-Control-Products/Face-Recognition-Terminals/Pro-Series/ds-k1t642mw/) | 6.000 caras / 10.000 tarjetas | — | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 3 metros |
-| HikVision | [DS-K1T341AM](https://www.hikvision.com/es-la/products/Access-Control-Products/Face-Recognition-Terminals/Value-Series/ds-k1t341am/) | 3.000 caras / 3.000 tarjetas | — | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 1,5 metros |
-| HikVision | [DS-K1T343MWX](https://www.hikvision.com/es-la/products/Access-Control-Products/Face-Recognition-Terminals/Value-Series/ds-k1t343mwx/) | 1.500 caras / 3.000 tarjetas | — | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 1,5 metros |
+| Marca     | Modelo                                                                                                                                 | Capacidad                      | Lector de tarjetas | Conectividad    | Velocidad                  | Distancia de reconocimiento |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ | ------------------ | --------------- | -------------------------- | --------------------------- |
+| HikVision | [DS-K1T673DWX](https://www.hikvision.com/en/products/Access-Control-Products/Face-Recognition-Terminals/Pro-Series/ds-k1t673dwx/)      | 10.000 caras / 50.000 tarjetas | Sí                 | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 3 metros              |
+| HikVision | [DS-K1T642MW](https://www.hikvision.com/es-la/products/Access-Control-Products/Face-Recognition-Terminals/Pro-Series/ds-k1t642mw/)     | 6.000 caras / 10.000 tarjetas  | —                  | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 3 metros              |
+| HikVision | [DS-K1T341AM](https://www.hikvision.com/es-la/products/Access-Control-Products/Face-Recognition-Terminals/Value-Series/ds-k1t341am/)   | 3.000 caras / 3.000 tarjetas   | —                  | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 1,5 metros            |
+| HikVision | [DS-K1T343MWX](https://www.hikvision.com/es-la/products/Access-Control-Products/Face-Recognition-Terminals/Value-Series/ds-k1t343mwx/) | 1.500 caras / 3.000 tarjetas   | —                  | WiFi - Ethernet | Menos de 0,2 s por usuario | 0,3 a 1,5 metros            |
 
 ## Procedimiento de instalación
 
@@ -140,11 +140,11 @@ Descargá el archivo `Control Acceso Reconocimiento Facial.rar` desde [este enla
 
 Ingresá a la carpeta `SocioPLUS` › `assets` e instalá `npcap.exe`.
 
-![Carpeta assets de SocioPLUS con el instalador npcap resaltado](images/assets-npcap.png)
+![Carpeta assets de SocioPLUS con el instalador npcap resaltado](../.gitbook/assets/assets-npcap.png)
 
 Cuando el instalador lo pida, marcá las siguientes opciones:
 
-![Opciones del instalador de Npcap: soporte de tráfico raw 802.11 y modo compatible con WinPcap](images/npcap-opciones-instalacion.png)
+![Opciones del instalador de Npcap: soporte de tráfico raw 802.11 y modo compatible con WinPcap](../.gitbook/assets/npcap-opciones-instalacion.png)
 {% endstep %}
 
 {% step %}
@@ -152,11 +152,11 @@ Cuando el instalador lo pida, marcá las siguientes opciones:
 
 Dentro de `assets`, ingresá al acceso directo **Descargar cloudflared** para descargar la última versión.
 
-![Carpeta assets con el acceso directo Descargar cloudflared resaltado](images/assets-descargar-cloudflared.png)
+![Carpeta assets con el acceso directo Descargar cloudflared resaltado](../.gitbook/assets/assets-descargar-cloudflared.png)
 
 Ejecutalo como administrador para instalarlo.
 
-![Descarga del instalador cloudflared-windows-amd64.msi](images/cloudflared-descarga-msi.png)
+![Descarga del instalador cloudflared-windows-amd64.msi](../.gitbook/assets/cloudflared-descarga-msi.png)
 {% endstep %}
 
 {% step %}
@@ -168,11 +168,11 @@ Al ingresar la contraseña se abrirá una pestaña en el navegador predeterminad
 
 Una vez que se abra, hacé clic en `socioplusaccess.com.ar` y luego en **Autorizar**.
 
-![Pantalla de autorización del túnel de Cloudflare, con socioplusaccess.com.ar señalado](images/cloudflare-autorizar-tunel.png)
+![Pantalla de autorización del túnel de Cloudflare, con socioplusaccess.com.ar señalado](../.gitbook/assets/cloudflare-autorizar-tunel.png)
 
 Por último, seguí completando los datos que pide la terminal del setup: cliente, sede, cantidad de nodos, MAC e IP de cada nodo, usuario y contraseña de la cuenta admin de cada nodo, y cantidad máxima de logs a guardar.
 
-![Terminal del setup solicitando los datos de cliente, sede y nodos](images/setup-terminal-datos-nodos.png)
+![Terminal del setup solicitando los datos de cliente, sede y nodos](../.gitbook/assets/setup-terminal-datos-nodos.png)
 
 {% hint style="info" %}
 La contraseña de soporte y las credenciales del reloj de cada nodo no se muestran en la terminal a medida que se escriben, pero sí se están cargando.
@@ -196,7 +196,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass
 
 Cuando se pida confirmar el cambio, escribí la letra `O` y presioná **Enter**.
 
-![Consola de PowerShell ejecutando Set-ExecutionPolicy y confirmando con la opción O](images/powershell-set-executionpolicy.png)
+![Consola de PowerShell ejecutando Set-ExecutionPolicy y confirmando con la opción O](../.gitbook/assets/powershell-set-executionpolicy.png)
 {% endstep %}
 
 {% step %}
@@ -204,7 +204,7 @@ Cuando se pida confirmar el cambio, escribí la letra `O` y presioná **Enter**.
 
 Ingresá a la carpeta `assets`, localizá el archivo `startup_script.ps1`, hacé clic derecho y entrá a `Propiedades` › `Cambiar…` › `Windows PowerShell`.
 
-![Ventana de propiedades de startup_script.ps1 con el botón Cambiar señalado](images/startup-script-propiedades-cambiar.png)
+![Ventana de propiedades de startup\_script.ps1 con el botón Cambiar señalado](../.gitbook/assets/startup-script-propiedades-cambiar.png)
 
 Si Windows PowerShell no aparece en la lista de aplicaciones, hacé clic en **Más aplicaciones** › **Buscar otra aplicación en el equipo**. Se va a abrir una ventana: **no la cierres todavía**.
 
@@ -216,15 +216,15 @@ where.exe powershell
 
 Vas a obtener una ruta similar a esta:
 
-![Consola CMD mostrando la ruta de powershell.exe obtenida con where.exe](images/cmd-where-powershell.png)
+![Consola CMD mostrando la ruta de powershell.exe obtenida con where.exe](../.gitbook/assets/cmd-where-powershell.png)
 
 Copiá esa ruta hasta la última barra `\` (sin incluir `powershell.exe`) y pegala en la barra superior de la ventana que quedó abierta. Por último, hacé clic en `powershell.exe` y en **Abrir**.
 
-![Ventana Abrir con mostrando powershell.exe seleccionado dentro de la carpeta v1.0](images/abrir-con-powershell-exe.png)
+![Ventana Abrir con mostrando powershell.exe seleccionado dentro de la carpeta v1.0](../.gitbook/assets/abrir-con-powershell-exe.png)
 
 Para terminar, hacé clic en **Aplicar** en la ventana de propiedades.
 
-![Ventana de propiedades de startup_script.ps1 mostrando que ya se abre con Windows PowerShell](images/startup-script-propiedades-powershell-ok.png)
+![Ventana de propiedades de startup\_script.ps1 mostrando que ya se abre con Windows PowerShell](../.gitbook/assets/startup-script-propiedades-powershell-ok.png)
 {% endstep %}
 
 {% step %}
@@ -232,11 +232,11 @@ Para terminar, hacé clic en **Aplicar** en la ventana de propiedades.
 
 Buscá en Windows **Editar plan de energía** e ingresá.
 
-![Resultado de búsqueda de Windows para Editar plan de energía](images/buscar-editar-plan-energia.png)
+![Resultado de búsqueda de Windows para Editar plan de energía](../.gitbook/assets/buscar-editar-plan-energia.png)
 
 Modificá la opción `Poner el equipo en estado de suspensión` a **Nunca** y guardá los cambios.
 
-![Pantalla de configuración del plan de energía con la opción Nunca seleccionada](images/plan-energia-suspension-nunca.png)
+![Pantalla de configuración del plan de energía con la opción Nunca seleccionada](../.gitbook/assets/plan-energia-suspension-nunca.png)
 {% endstep %}
 
 {% step %}
@@ -244,7 +244,7 @@ Modificá la opción `Poner el equipo en estado de suspensión` a **Nunca** y gu
 
 Hacé clic derecho sobre `startup_script.ps1` y seleccioná `Ejecutar con PowerShell`. Si todo está correcto, se va a abrir una ventana brevemente y luego se va a cerrar sola, pero el programa va a quedar corriendo en segundo plano. Podés verificarlo en los iconos ocultos de la barra de tareas.
 
-![Ícono de SP Control de acceso en los iconos ocultos de la barra de tareas](images/icono-sp-control-acceso-bandeja.png)
+![Ícono de SP Control de acceso en los iconos ocultos de la barra de tareas](../.gitbook/assets/icono-sp-control-acceso-bandeja.png)
 
 {% hint style="info" %}
 Solo hace falta abrir manualmente `startup_script.ps1` durante la instalación. El setup ya genera un acceso directo en la carpeta de inicio de Windows, así que el programa se va a abrir solo en segundo plano cada vez que se prenda la PC.
@@ -256,9 +256,9 @@ Solo hace falta abrir manualmente `startup_script.ps1` durante la instalación. 
 
 Completá la información de los nodos, previamente consultada al cliente, en `gestion.socioplus.com.ar/soporte` buscando por ID de cliente. Primero ingresá a la sede correspondiente y luego a `Nodos`.
 
-![Formulario de creación de nodo con los campos Nodo ID, Nombre, Tipo, IP, MAC, Puerto, Dominio, usuario y contraseña](images/nodos-crear-nodo-formulario.png)
+![Formulario de creación de nodo con los campos Nodo ID, Nombre, Tipo, IP, MAC, Puerto, Dominio, usuario y contraseña](../.gitbook/assets/nodos-crear-nodo-formulario.png)
 
-![Tabla de nodos cargados para una sede, con tipo, IP, MAC, puerto y credenciales](images/nodos-tabla-cargados.png)
+![Tabla de nodos cargados para una sede, con tipo, IP, MAC, puerto y credenciales](../.gitbook/assets/nodos-tabla-cargados.png)
 
 {% hint style="warning" %}
 Asegurate de que los datos queden guardados correctamente en el cliente seleccionado antes de dar por cerrada la instalación.
@@ -291,7 +291,7 @@ Ambas rutas piden usuario y contraseña. Las credenciales son: usuario `soporteS
 2. Abrí el Administrador de tareas (clic derecho en la barra de tareas › `Administrador de tareas`) › `Más detalles` › pestaña `Inicio` o `Arranque`, y verificá que `startup script` esté habilitado.
 3. Verificá que el script `startup_script.ps1`, dentro de `SocioPLUS/assets`, se abra con PowerShell (clic derecho › `Propiedades`).
 
-![Propiedades de startup_script.ps1 confirmando que se abre con Windows PowerShell](images/startup-script-propiedades-powershell-ok.png)
+![Propiedades de startup\_script.ps1 confirmando que se abre con Windows PowerShell](../.gitbook/assets/startup-script-propiedades-powershell-ok.png)
 
 </details>
 
@@ -303,7 +303,7 @@ Ambas rutas piden usuario y contraseña. Las credenciales son: usuario `soporteS
 2. Ejecutá `tasklist | FINDSTR "cloudflared.exe"` y/o `tasklist | FINDSTR "SPReconFacial.exe"` para ver el número de proceso.
 3. Ejecutá `kill` seguido del número de proceso.
 
-![Consola mostrando tasklist filtrado por cloudflared.exe y el comando kill con el número de proceso](images/cmd-tasklist-kill-cloudflared.png)
+![Consola mostrando tasklist filtrado por cloudflared.exe y el comando kill con el número de proceso](../.gitbook/assets/cmd-tasklist-kill-cloudflared.png)
 
 </details>
 
@@ -313,7 +313,7 @@ Ambas rutas piden usuario y contraseña. Las credenciales son: usuario `soporteS
 
 1. Borrá los registros DNS desde el [panel de DNS de Cloudflare](https://dash.cloudflare.com/982b2c155832920d5daed442e2c2fc6c/socioplusaccess.com.ar/dns/records). Identificá el registro que corresponde al cliente y la sede que estás instalando (por ejemplo, `nodo1-argcord052-1`), hacé clic en **Editar** y luego en **Eliminar**. Si también existe un registro `server-<cliente>-<sede>`, eliminalo también.
 
-![Panel de DNS de Cloudflare mostrando un registro CNAME con las opciones Editar y Eliminar](images/cloudflare-dns-eliminar-registro.png)
+![Panel de DNS de Cloudflare mostrando un registro CNAME con las opciones Editar y Eliminar](../.gitbook/assets/cloudflare-dns-eliminar-registro.png)
 
 {% hint style="danger" %}
 No modifiques ni elimines el registro `socioplusaccess.com.ar`: es necesario para el control de acceso con placa IP.
@@ -321,7 +321,7 @@ No modifiques ni elimines el registro `socioplusaccess.com.ar`: es necesario par
 
 2. Borrá el túnel. Ingresá al [panel de túneles de Cloudflare](https://one.dash.cloudflare.com/982b2c155832920d5daed442e2c2fc6c/access/tunnels?search=), identificá el túnel a eliminar por cliente y sede, hacé clic en los tres puntos del margen derecho y seleccioná **Delete**.
 
-![Listado de túneles de Cloudflare con el menú de opciones desplegado y Delete señalado](images/cloudflare-tunnels-delete.png)
+![Listado de túneles de Cloudflare con el menú de opciones desplegado y Delete señalado](../.gitbook/assets/cloudflare-tunnels-delete.png)
 
 3. Por último, ingresá a la carpeta del usuario de la PC (`C:\Users\<USUARIO>`) y luego a `.cloudflared`, y eliminá todos los archivos **excepto** `cert.pem`.
 
@@ -335,7 +335,7 @@ Si borrás `cert.pem` vas a tener que autenticarte de nuevo. Podés borrarlo y v
 
 <summary>Error: json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)</summary>
 
-![Consola mostrando el traceback completo del error JSONDecodeError](images/error-json-decode-consola.png)
+![Consola mostrando el traceback completo del error JSONDecodeError](../.gitbook/assets/error-json-decode-consola.png)
 
 **Causa:** el archivo `settings.json` no contiene información, o el formato JSON es incorrecto.
 
@@ -351,10 +351,10 @@ Se accede al panel del dispositivo mediante su IP desde la computadora del clien
 
 Verificá que el dispositivo **no** esté enviando las fotos al autenticar (`Person Management` › `Privacy Settings`):
 
-![Panel de privacidad de Hikvision con las opciones de guardado de fotos desactivadas](images/hikvision-privacy-settings-fotos.png)
+![Panel de privacidad de Hikvision con las opciones de guardado de fotos desactivadas](../.gitbook/assets/hikvision-privacy-settings-fotos.png)
 
 Verificá que el dispositivo tenga configurados los siguientes parámetros en `Network Service`: la IP de la PC y el puerto `8000`.
 
-![Panel Network Service de Hikvision con la IP de la PC y el puerto 8000 configurados](images/hikvision-network-service-ip-puerto.png)
+![Panel Network Service de Hikvision con la IP de la PC y el puerto 8000 configurados](../.gitbook/assets/hikvision-network-service-ip-puerto.png)
 
 </details>

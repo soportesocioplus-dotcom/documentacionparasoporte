@@ -1,8 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
-
 ## Instalaciones
 
-* [Instalaciones](instalaciones/instalaciones.md)
+* [Instalaciones](README.md)
 * [Control de acceso — Reconocimiento facial](instalaciones/control-acceso-reconocimiento-facial.md)
