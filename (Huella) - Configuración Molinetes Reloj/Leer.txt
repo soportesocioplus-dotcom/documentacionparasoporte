@@ -1,0 +1,13 @@
+CONTROL DE ACCESO RELOJ
+
+En esta configuración lo que se tiene que tener en cuanta es las ip de los relojes para configruar en la base de datos, ver ejemplo de esta configruación.
+
+Luego se tiene que instalar el programa timer5, domde la instalación es muy simple donde se debe presionar siguiente, siguiente.
+
+Hay que también averiguar que tipo de reloj es para saber si en la configruación se coloca modelo 1 o 0. El modelo 1 es el reloj con display y 0 es el reloj sin display.
+
+También hay que ver como enrolan la huella si es mediante el mismo reloj o si es mediante un sensor como el zk 9500, donde también tenemos los drivers para instalarlo posterior a la instalación del timer5.
+
+Por eso la instalación de reloj es tan cambiante en base a lo que configure cada cuenta.
+Por lo pronto siempre hay que configurar como esta instalación, lo que cambia es el modelo del reloj y si enrolan o no con el mismo o mediante un sensor aparte.
+
