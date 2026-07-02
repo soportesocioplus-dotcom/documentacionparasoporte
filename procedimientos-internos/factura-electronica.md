@@ -8,7 +8,7 @@ icon: file-invoice
 
 # Alta de Factura Electrónica
 
-Este documento describe el procedimiento interno que sigue el equipo de soporte cuando un cliente solicita comenzar a utilizar el módulo de Factura Electrónica. Cubre los datos que hay que pedirle al cliente, la generación de los archivos necesarios para el Certificado Fiscal, el envío a AFIP a través del cliente, y la coordinación final del alta con el responsable del módulo.
+Este documento describe el procedimiento interno que sigue el equipo de soporte cuando un cliente solicita comenzar a utilizar el módulo de Factura Electrónica. Cubre los datos que hay que pedirle al cliente, la generación de los archivos necesarios para el Certificado Fiscal, el envío a AFIP a través del cliente, y la carga y validación final del alta en el panel de soporte.
 
 {% hint style="danger" %}
 Antes de avanzar, verificá que el cliente tenga contratado el **Plan Plus** o sea **Empresa**. Si no cumple ninguna de las dos condiciones, no se debe avanzar con el procedimiento: hay que informarle que solicite el módulo escribiendo a [**info@socioplus.com.ar**](mailto:info@socioplus.com.ar).
@@ -81,19 +81,54 @@ Enviale al cliente los archivos `pedido` y `privada` (en la misma cadena de mail
 {% endstep %}
 
 {% step %}
-### Armar el correo y enviarlo al responsable del módulo
+### Completar el alta en el panel de soporte
 
-Antes de enviar nada, corroborá que todo lo que mandó el cliente esté correcto y completo. Armá un correo para [**info@socioplus.com.ar**](mailto:info@socioplus.com.ar) (Hugo) con:
+Antes de continuar, corroborá que todo lo que mandó el cliente esté correcto y completo.
 
-* Los datos solicitados al cliente: Nombre de Fantasía, CUIT, Razón social y Punto de Venta.
-* Los archivos `pedido` y `privada`.
-* El Certificado Fiscal (`.crt`, sin renombrar).
-* La Constancia de alta de punto de venta / emisión.
+Entrá a la página de soporte, ingresá a la sede del cliente y andá a [`https://gestion.socioplus.com.ar/factura_electronica`](https://gestion.socioplus.com.ar/factura_electronica). Ahí vas a encontrar el formulario **Alta para facturar**.
+
+![Formulario Alta para facturar, con los campos de punto de venta, CUIT, razón social y demás datos fiscales](../.gitbook/assets/facturacion_electronica.png)
+
+Completá los siguientes campos:
+
+| Campo | Valor a completar |
+|---|---|
+| Punto de venta | Sede del gimnasio en la que se va a realizar la facturación |
+| Punto de venta (ARCA) | El punto de venta que informó el cliente |
+| CUIT (11 dígitos) | CUIT del cliente |
+| Razón social | Razón social del cliente |
+| Nombre de fantasía | Nombre de fantasía del cliente |
+| Domicilio fiscal | Domicilio fiscal del cliente |
+| Ingresos Brutos | El mismo valor que el CUIT |
+| Inicio de actividades | Se encuentra en la constancia de alta de punto de venta que envió el cliente |
+| Condición de IVA del emisor | IVA Responsable Inscripto / IVA Sujeto Exento / Responsable Monotributo, según corresponda |
+
+{% hint style="info" %}
+Los demás campos del formulario se completan automáticamente.
+{% endhint %}
+
+Hacé clic en **Guardar** y luego en **Actualizar**. Al hacerlo, va a aparecer debajo la sección para cargar el certificado.
+{% endstep %}
+
+{% step %}
+### Subir el certificado y probarlo
+
+En la sección **Certificado fiscal** que aparece luego de guardar, subí:
+
+* El **Certificado fiscal (.crt)**, tal cual lo envió el cliente.
+* El archivo `pedido` generado previamente.
+* El archivo `privada` generado previamente.
+
+![Sección Certificado fiscal del panel, con los campos para subir el certificado, el pedido y la privada](../.gitbook/assets/facturacion_electronica2.png)
+
+Hacé clic en **Subir archivos**.
+
+Por último, hacé clic en **Probar certificado** para verificar que el certificado esté firmando correctamente y que toda la información cargada sea correcta. No hace falta volver a subir nada para esta prueba.
 {% endstep %}
 
 {% step %}
 ### Confirmar el alta con el cliente
 
-Aguardá a que Hugo haga las pruebas correspondientes con el certificado. Cuando confirme que fueron exitosas, avisale al cliente y enviale los instructivos y videos explicativos del módulo de Factura Electrónica, incluyendo el instructivo de cómo cargar los datos impositivos en el perfil del socio.
+Una vez que la prueba del certificado sea exitosa, avisale al cliente y enviale los instructivos y videos explicativos del módulo de Factura Electrónica, incluyendo el instructivo de cómo cargar los datos impositivos en el perfil del socio.
 {% endstep %}
 {% endstepper %}
