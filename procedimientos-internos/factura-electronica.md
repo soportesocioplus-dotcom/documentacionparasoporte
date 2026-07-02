@@ -1,8 +1,8 @@
 ---
 description: >-
-  Procedimiento interno para dar de alta el módulo de Factura Electrónica a
-  un cliente: datos a solicitar, generación de certificados y coordinación
-  del alta.
+  Procedimiento interno para dar de alta el módulo de Factura Electrónica a un
+  cliente: datos a solicitar, generación de certificados y coordinación del
+  alta.
 icon: file-invoice
 ---
 
@@ -26,12 +26,12 @@ El costo del servicio para dar de alta la Factura Electrónica es de **$150.000 
 
 Pedile al cliente los siguientes datos:
 
-| Dato | Detalle |
-|---|---|
-| Nombre de Fantasía | Nombre comercial del cliente |
-| CUIT | Sin guiones, se va a usar así en los comandos |
-| Razón social | Razón social registrada en AFIP |
-| Punto de Venta | Punto de venta a habilitar para la factura electrónica |
+| Dato               | Detalle                                                |
+| ------------------ | ------------------------------------------------------ |
+| Nombre de Fantasía | Nombre comercial del cliente                           |
+| CUIT               | Sin guiones, se va a usar así en los comandos          |
+| Razón social       | Razón social registrada en AFIP                        |
+| Punto de Venta     | Punto de venta a habilitar para la factura electrónica |
 {% endstep %}
 
 {% step %}
@@ -50,12 +50,12 @@ req -new -config openssl.cnf -key privada -out pedido
 
 4. El segundo comando va a pedir los datos a continuación, uno por uno. Completalos así:
 
-| Dato solicitado | Valor a ingresar |
-|---|---|
-| País | `AR` |
-| Razón social | Razón social del cliente |
+| Dato solicitado    | Valor a ingresar               |
+| ------------------ | ------------------------------ |
+| País               | `AR`                           |
+| Razón social       | Razón social del cliente       |
 | Nombre de Fantasía | Nombre de fantasía del cliente |
-| CUIT | CUIT del cliente |
+| CUIT               | CUIT del cliente               |
 
 {% hint style="warning" %}
 El CUIT se debe escribir **sin guiones**.
@@ -91,16 +91,16 @@ Entrá a la página de soporte, ingresá a la sede del cliente y andá a [`https
 
 Completá los siguientes campos:
 
-| Campo | Valor a completar |
-|---|---|
-| Punto de venta | Sede del gimnasio en la que se va a realizar la facturación |
-| Punto de venta (ARCA) | El punto de venta que informó el cliente |
-| CUIT (11 dígitos) | CUIT del cliente |
-| Razón social | Razón social del cliente |
-| Nombre de fantasía | Nombre de fantasía del cliente |
-| Domicilio fiscal | Domicilio fiscal del cliente |
-| Ingresos Brutos | El mismo valor que el CUIT |
-| Inicio de actividades | Se encuentra en la constancia de alta de punto de venta que envió el cliente |
+| Campo                       | Valor a completar                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------ |
+| Punto de venta              | Sede del gimnasio en la que se va a realizar la facturación                                |
+| Punto de venta (ARCA)       | El punto de venta que informó el cliente                                                   |
+| CUIT (11 dígitos)           | CUIT del cliente                                                                           |
+| Razón social                | Razón social del cliente                                                                   |
+| Nombre de fantasía          | Nombre de fantasía del cliente                                                             |
+| Domicilio fiscal            | Domicilio fiscal del cliente                                                               |
+| Ingresos Brutos             | El mismo valor que el CUIT                                                                 |
+| Inicio de actividades       | Se encuentra en la constancia de alta de punto de venta que envió el cliente               |
 | Condición de IVA del emisor | IVA Responsable Inscripto / IVA Sujeto Exento / Responsable Monotributo, según corresponda |
 
 {% hint style="info" %}
@@ -119,7 +119,7 @@ En la sección **Certificado fiscal** que aparece luego de guardar, subí:
 * El archivo `pedido` generado previamente.
 * El archivo `privada` generado previamente.
 
-![Sección Certificado fiscal del panel, con los campos para subir el certificado, el pedido y la privada](../.gitbook/assets/facturacion_electronica2.png)
+![Sección Certificado fiscal del panel, con los campos para subir el certificado, el pedido y la privada](../.gitbook/assets/image.png)
 
 Hacé clic en **Subir archivos**.
 
