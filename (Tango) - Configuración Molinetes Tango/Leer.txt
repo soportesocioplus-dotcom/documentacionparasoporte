@@ -1,0 +1,6 @@
+CONTROL DE ACCESO TANGO
+
+La instalación es la misma que el de llaveros pero en el config no se configura el puerto del molinete porque tango, instala en el dico C, una carpeta con el nombre tango donde deja un instalador que es el que en el sistema ejecutamos para que abra el mismos.
+Lo que tienen que colocar en la base de datos el path y el nombre del archivo que vamos a ejecutar cuando el control de acceso sea correcto.
+
+El resto de la instalación es lo mismo, elejecutable que deben dejar en el escritorio se llama: SPAccesoTeclado.exe
