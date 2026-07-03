@@ -7,6 +7,10 @@ icon: qrcode
 
 # Control de acceso — Placas para QR
 
+{% hint style="info" %}
+Si la instalación usa un lector QR conectado a la PC con base de datos local en Access (en lugar de una placa IP dentro del molinete), consultá la sección [Configuración de Molinete con Lector QR](../lector-qr/README.md).
+{% endhint %}
+
 ## Características
 
 Existen dos tipos de código QR que puede escanear el socio para ingresar:

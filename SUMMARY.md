@@ -32,6 +32,11 @@
 
 * [Control de acceso — Placas para QR](placas-qr/control-acceso-placas-qr.md)
 
+## Configuración de Molinete con Lector QR
+
+* [Configuración de Molinete con Lector QR](lector-qr/README.md)
+* [Instalación con lector QR](lector-qr/instalacion-molinete-lector-qr.md)
+
 ## Configuración Molinetes Tango
 
 * [Configuración Molinetes Tango](tango/README.md)
@@ -42,6 +47,10 @@
 
 * [Configuración Molinete Teclado](teclado/README.md)
 * [Instalación de molinete con teclado](teclado/instalacion-molinete-teclado.md)
+
+## GFitness
+
+* [GFitness](gfitness/gfitness.md)
 
 ## Procedimientos internos
 
